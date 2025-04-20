@@ -5,39 +5,42 @@ No known version issues, but tested specifically on this version.
 
 ---
 
-##Contents
+## Contents
 
-C# Scripts
+### C# Scripts
 
 - `Rotate.cs`  
-  Rotates the GameObject it’s attached to at a configurable speed. Useful for demo scenes.
+  Rotates the GameObject it’s attached to at a configurable speed. Primarily for demonstration purposes.
 
 - `Shader_Helper_Functions.cs`  
-  A collection of helper functions for use in shader-related C# scripts. Feel free to reuse or extend.
+  A set of utility functions for use in shader-related C# scripts.
 
 - `ViewController.cs`  
-  A simple fly-style camera controller script for navigating the display scene.
+  A basic fly-style camera controller script for navigating the scene.
 
 - `World_Dither.cs`  
-  The core effect controller script. Attach this to a GameObject with a `Camera` component.
+  The main effect script. Attach this to a GameObject with a `Camera` component to enable the dithering effect.
 
-Shaders
+### Shaders
 
 - `World Dither.shader`  
-  The main shader file where the dithering effect is implemented.
+  Contains the core implementation of the dithering effect.
 
-Scenes
+### Scenes
 
 - `World Dither`  
-  A minimal demo scene to showcase the dithering effect in action.
+  A minimal demonstration scene showcasing the effect.
+
+### Banana Man Folder
+
+- A sample model from the Unity Asset Store:  
+  [Banana Man - Unity Asset Store](https://assetstore.unity.com/packages/3d/characters/humanoids/banana-man-196830)
 
 ---
 
-##How to Use
+## How to Use
 
 1. Open the project in Unity `2022.3.30f1`.
-2. Open the `World Dither` scene (or create your own).
+2. Open the `World Dither` scene (or create a new one).
 3. Attach the `World_Dither.cs` script to a GameObject that has a `Camera` component.
-4. Play the scene and enjoy the effect!
-
----
+4. Enter Play mode to see the effect in action.
